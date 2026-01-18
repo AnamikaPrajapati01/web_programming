@@ -1,174 +1,190 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <title>Easy Shopping</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
+
 <body>
-    <!-- navbar -->
-    <nav>
-        <div>
-            <h1>Easy Shopping</h1>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <h1 class="logo">Easy Shopping</h1>
+
+        <div class="search-bar">
+            <select>
+                <option>All</option>
+            </select>
+            <input type="text" placeholder="Search">
+            <i class="fa fa-search"></i>
         </div>
-                <div>
-                <select >
-                    <option>All</option>
-                </select>
-                <input placeholder="Seach" class="search-input">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                
-            </div>
-        <ul>
-            <li><a href="">home</a></li>
-            <li><a href="">New Arrivals</a></li>
-            <li><a href="">Fashion</a></li>
-            <li><a href="">Account</a></li>
-            <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="#">Fashion</a></li>
+            <li><a href="#">Account</a></li>
+            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
         </ul>
     </nav>
 
-    <!-- content section -->
-<section>
-    <h1>New Arrivals for Men and Women</h1>
-    <p>Get The Best Women Fashion Arrivals </p>
-    <button>Shop Now</button>
-</section>
+    <!-- HERO -->
+    <section class="content-section">
+        <h1>New Arrivals for Men and Women</h1>
+        <p>Get The Best Men and Women Fashion Arrivals</p>
+        <button>Shop Now</button>
+    </section>
 
-<h1>Our Laest Product</h1>
-<section>
-    <!-- card section -->
-    <div>
-        <div><img src="women.jpg" alt=""></div>
-        <div>Women</div>
-        <div>Winter Cloth</div>
-        <div>
-            <div>$20</div>
-            <button>Buy Now</button>
+    <h1 class="pheading">Our Latest Product</h1>
+
+    <!-- PRODUCTS -->
+    <section class="sec">
+        <div class="Products">
+
+            <div class="card">
+                <div class="img"><img src="women.jpg"></div>
+                <div class="decs">Women</div>
+                <div class="title">Winter Cloth</div>
+                <div class="box">
+                    <div class="price">$20</div>
+                    <a href="#p1" class="btn">Buy Now</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="shirt.jpg"></div>
+                <div class="decs">Men</div>
+                <div class="title">Men Cloth</div>
+                <div class="box">
+                    <div class="price">$5</div>
+                    <a href="#p2" class="btn">Buy Now</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="bag.jpg"></div>
+                <div class="decs">Women Bag</div>
+                <div class="title">Prada</div>
+                <div class="box">
+                    <div class="price">$50</div>
+                    <a href="#p3" class="btn">Buy Now</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="watch.jpg"></div>
+                <div class="decs">Men</div>
+                <div class="title">Men Watch</div>
+                <div class="box">
+                    <div class="price">$30</div>
+                    <a href="#p4" class="btn">Buy Now</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="shoes.jpg"></div>
+                <div class="decs">Men</div>
+                <div class="title">Men Shoes</div>
+                <div class="box">
+                    <div class="price">$50</div>
+                    <a href="#p5" class="btn">Buy Now</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="heels.jpg"></div>
+                <div class="decs">Women</div>
+                <div class="title">Sandal</div>
+                <div class="box">
+                    <div class="price">$34</div>
+                    <a href="#p6" class="btn">Buy Now</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="perfume.jpg"></div>
+                <div class="decs">Lady Perfume</div>
+                <div class="title">Chanel</div>
+                <div class="box">
+                    <div class="price">$56</div>
+                    <a href="#p7" class="btn">Buy Now</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="glass.jpg"></div>
+                <div class="decs">Women Glass</div>
+                <div class="title">Gucci</div>
+                <div class="box">
+                    <div class="price">$50</div>
+                    <a href="#p8" class="btn">Buy Now</a>
+                </div>
+            </div>
+
         </div>
+    </section>
+
+
+    <div id="p1" class="product-detail">
+        <a href="#" class="back">← Back</a>
+        <img src="women.jpg" alt="Winter Cloth">
+        <h2>Winter Cloth</h2>
+        <p>
+            Stay warm and stylish with our premium winter wear.
+            Made with high-quality fabric, perfect for daily use and special occasions.
+        </p>
+        <h3>Price: $20</h3>
+        <button class="btn">Add to Cart</button>
     </div>
 
-        <!-- card section -->
-    <div>
-        <div><img src="./shirt.jpg" alt=""></div>
-        <div>men</div>
-        <div>men Cloth</div>
-        <div>
-            <div>$5</div>
-            <button>Buy Now</button>
+
+
+    <!-- footer -->
+    <footer>
+        <div class="foot-panel">Back to Top</div>
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to Know Us</p>
+
+                <a >Careers</a>
+                <a >Blog</a>
+
+                <a href="https://www.instagram.com" target="">
+                    <i class="fa-brands fa-instagram"></i> Instagram
+                </a>
+
+                <a href="easyshopping@gmail.com" >
+                    <i class="fa-solid fa-envelope"></i> Gmail
+                </a>
+            </ul>
+
+            <ul>
+                <p>Make Money with Us</p>
+                <a>See More Make Money with Us</a>
+            </ul>
+            <ul>
+                <p>Let Us Help You</p>
+                <a>Your Account</a>
+                <a>Your Orders</a>
+                <a>Shipping Rates & Policies</a>
+                <a>Return & Replacement</a>
+                <a>Manage Your Content and Devices</a>
+                <a>Help</a>
+            </ul>
         </div>
-    </div>
 
-        <!-- card section -->
-    <div>
-        <div><img src="./bag.jpg" alt=""></div>
-        <div>Women bag</div>
-        <div>Prada</div>
-        <div>
-            <div>$50</div>
-            <button>Buy Now</button>
+        <div class="foot-panel4">
+            <div> <a>Conditions of Use</a> <a>Privacy Notice</a> <a>Add Third-Party Cookies</a> </div>
+            <div class="copyright">© 1996-2026, Easyshopping.com, Inc. or its affiliates</div>
         </div>
-    </div>
+    </footer>
 
-        <!-- card section -->
-    <div>
-        <div><img src="./watch.jpg" alt=""></div>
-        <div>men</div>
-        <div>Men watch</div>
-        <div>
-            <div>$30</div>
-            <button>Buy Now</button>
-        </div>
-    </div>
+</html>
 
-        <!-- card section -->
-    <div>
-        <div><img src="./shoes.jpg" alt=""></div>
-        <div>Men</div>
-        <div>men's shoes</div>
-        <div>
-            <div>$50</div>
-            <button>Buy Now</button>
-        </div>
-    </div>
-
-
-        <!-- card section -->
-    <div>
-        <div><img src="./heels.jpg" alt=""></div>
-        <div>Women</div>
-        <div>Sandal</div>
-        <div>
-            <div>$34</div>
-            <button>Buy Now</button>
-        </div>
-    </div>
-
-
-        <!-- card section -->
-    <div>
-        <div><img src="./perfume.jpg" alt=""></div>
-        <div>Lady perfume</div>
-        <div>Chanel</div>
-        <div>
-            <div>$56</div>
-            <button>Buy Now</button>
-        </div>
-    </div>
-
-</section>
-
-
-<!-- footer -->
-<footer>
-    <div >
-        Back to Top
-    </div>
-    
-    <div >
-        <ul>
-            <p> Get to Know Us</p>
-            <a>Careers</a>
-            <a>Blog</a>
-        </ul>
-        <ul>
-            <p>Make Money with Us</p>
-            <a>See More Make Money with Us</a>
-        </ul>
-        <ul>
-            <p>Let Us Help You</p>
-            <a>Your Account</a>
-            <a>Your Orders</a>
-            <a>Shipping Rates & Policies</a>
-            <a>Return & Replacement</a>
-            <a>Manage Your Content and Devices</a>
-            <a>Help</a>
-        </ul>
-    </div>
-    <div>
-        <div></div>
-        <box>
-            <i class="fa-solid fa-globe"></i>
-            <select>
-            <option value="Nepali">Nepali</option>
-            <option value="Hindi">Hindi</option>
-            <option value="English">English</option>
-            </select>
-        </box>
-    </div>
-    <div>
-        <div>
-            <a>Conditions of Use</a>
-            <a>Privacy Notice</a>
-            <a>Add Third-Party Cookies</a>
-        </div>
-        <div>
-            © 1996-2026, Easyshopping.com, Inc. or its affiliates
-        </div>
-    </div>
-</footer>
-
-</body>
 </html>
