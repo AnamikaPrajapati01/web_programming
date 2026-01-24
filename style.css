@@ -61,7 +61,7 @@
 
 }
 
-/* PRODUCTS */
+
 .pheading {
   text-align: center;
   margin: 50px 0;
@@ -128,7 +128,8 @@
   color: white;
 }
 
-/* PRODUCT DETAIL PAGE */
+
+
 .product-detail {
   display: none;
   position: fixed;
