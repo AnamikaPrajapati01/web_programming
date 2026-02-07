@@ -1,130 +1,178 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Easy Shopping</title>
+    <title>EasyShopping | Premium Fashion</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
-<body> <!-- NAVBAR -->
-    <nav class="navbar">
-        <h1 class="logo">Easy Shopping</h1>
-        <div class="search-bar"> <select>
-                <option>All</option>
-            </select> <input type="text" placeholder="Search"> <i class="fa fa-search"></i> </div>
-        <ul class="menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">New Arrivals</a></li>
-            <li><a href="#">Fashion</a></li>
-            <li><a href="#">Account</a></li>
-            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-        </ul>
-    </nav> <!-- HERO -->
-    <section class="content-section">
-        <h1>New Arrivals for Men and Women</h1>
-        <p>Get The Best Men and Women Fashion Arrivals</p> <button>Shop Now</button>
-    </section>
-    <h1 class="pheading">Our Latest Product</h1> <!-- PRODUCTS -->
-    <section class="sec">
-        <div class="Products">
-            <div class="card">
-                <div class="img"><img src="women.jpg"></div>
-                <div class="decs">Women</div>
-                <div class="title">Winter Cloth</div>
-                <div class="box">
-                    <div class="price">$20</div> <a href="#p1" class="btn">Buy Now</a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img"><img src="shirt.jpg"></div>
-                <div class="decs">Men</div>
-                <div class="title">Men Cloth</div>
-                <div class="box">
-                    <div class="price">$5</div> <a href="#p2" class="btn">Buy Now</a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img"><img src="bag.jpg"></div>
-                <div class="decs">Women Bag</div>
-                <div class="title">Prada</div>
-                <div class="box">
-                    <div class="price">$50</div> <a href="#p3" class="btn">Buy Now</a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img"><img src="watch.jpg"></div>
-                <div class="decs">Men</div>
-                <div class="title">Men Watch</div>
-                <div class="box">
-                    <div class="price">$30</div> <a href="#p4" class="btn">Buy Now</a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img"><img src="shoes.jpg"></div>
-                <div class="decs">Men</div>
-                <div class="title">Men Shoes</div>
-                <div class="box">
-                    <div class="price">$50</div> <a href="#p5" class="btn">Buy Now</a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img"><img src="heels.jpg"></div>
-                <div class="decs">Women</div>
-                <div class="title">Sandal</div>
-                <div class="box">
-                    <div class="price">$34</div> <a href="#p6" class="btn">Buy Now</a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img"><img src="perfume.jpg"></div>
-                <div class="decs">Lady Perfume</div>
-                <div class="title">Chanel</div>
-                <div class="box">
-                    <div class="price">$56</div> <a href="#p7" class="btn">Buy Now</a>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img"><img src="glass.jpg"></div>
-                <div class="decs">Women Glass</div>
-                <div class="title">Gucci</div>
-                <div class="box">
-                    <div class="price">$50</div> <a href="#p8" class="btn">Buy Now</a>
-                </div>
-            </div>
-        </div>
-       
- 
+<body>
 
-    </section>
-    <div id="p1" class="product-detail"> <a href="#" class="back">← Back</a> <img src="women.jpg" alt="Winter Cloth">
-        <h2>Winter Cloth</h2>
-        <p> Stay warm and stylish with our premium winter wear. Made with high-quality fabric, perfect for daily use and
-            special occasions. </p>
-        <h3>Price: $20</h3> <button class="btn">Add to Cart</button>
-    </div> <!-- footer -->
-    <footer>
-        <div class="foot-panel">Back to Top</div>
-        <div class="foot-panel2">
-            <ul>
-                <p>Get to Know Us</p> <a>Careers</a> <a>Blog</a> <a href="https://www.instagram.com" target=""> <i
-                        class="fa-brands fa-instagram"></i> Instagram </a> <a href="easyshopping@gmail.com"> <i
-                        class="fa-solid fa-envelope"></i> Gmail </a>
-            </ul>
-            <ul>
-                <p>Make Money with Us</p> <a>See More Make Money with Us</a>
-            </ul>
-            <ul>
-                <p>Let Us Help You</p> <a>Your Account</a> <a>Your Orders</a> <a>Shipping Rates & Policies</a> <a>Return
-                    & Replacement</a> <a>Manage Your Content and Devices</a> <a>Help</a>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-flex">
+            <a href="#" class="logo">EasyShopping</a>
+            <ul class="menu">
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Journal</a></li>
+                <li><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
             </ul>
         </div>
-        <div class="foot-panel4">
-            <div> <a>Conditions of Use</a> <a>Privacy Notice</a> <a>Add Third-Party Cookies</a> </div>
-            <div class="copyright">© 1996-2026, Easyshopping.com, Inc. or its affiliates</div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>The New Spring Edit</h1>
+            <p>Curated selection of timeless pieces for the modern wardrobe. Quality materials, ethical craftsmanship.
+            </p>
+            <a href="#" class="btn-black">Shop the Collection</a>
+        </div>
+    </header>
+
+    <!-- Products Section -->
+    <main class="container">
+        <h2 class="section-title">Latest Drops</h2>
+        <div class="grid">
+            <!-- Product 1 -->
+            <div class="card col-3 col-lg-4 col-md-6 col-sm-12">
+                <div class="img-holder"><img src="women.jpg" alt="Winter Coat"></div>
+                <div class="card-category">Outerwear</div>
+                <div class="card-title">Wool Classic Coat</div>
+                <div class="card-price">$120.00</div>
+                <a href="#detail" class="detail-btn">View Selection</a>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="card col-3 col-lg-4 col-md-6 col-sm-12">
+                <div class="img-holder"><img src="shirt.jpg" alt="Formal Shirt"></div>
+                <div class="card-category">Essentials</div>
+                <div class="card-title">Cotton Oxford Shirt</div>
+                <div class="card-price">$45.00</div>
+                <a href="#detail" class="detail-btn">View Selection</a>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="card col-3 col-lg-4 col-md-6 col-sm-12">
+                <div class="img-holder"><img src="bag.jpg" alt="Leather Bag"></div>
+                <div class="card-category">Accessories</div>
+                <div class="card-title">Heritage Leather Bag</div>
+                <div class="card-price">$280.00</div>
+                <a href="#detail" class="detail-btn">View Selection</a>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="card col-3 col-lg-4 col-md-6 col-sm-12">
+                <div class="img-holder"><img src="watch.jpg" alt="Minimalist Watch"></div>
+                <div class="card-category">Premium</div>
+                <div class="card-title">Silver Tone Chrono</div>
+                <div class="card-price">$199.00</div>
+                <a href="#detail" class="detail-btn">View Selection</a>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="card col-3 col-lg-4 col-md-6 col-sm-12">
+                <div class="img-holder"><img src="shoes.jpg" alt="Runners"></div>
+                <div class="card-category">Footwear</div>
+                <div class="card-title">Everyday Runner Shoes</div>
+                <div class="card-price">$90.00</div>
+                <a href="#detail" class="detail-btn">View Selection</a>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="card col-3 col-lg-4 col-md-6 col-sm-12">
+                <div class="img-holder"><img src="heels.jpg" alt="Evening Shoes"></div>
+                <div class="card-category">Women</div>
+                <div class="card-title">Night Evening Sandal</div>
+                <div class="card-price">$110.00</div>
+                <a href="#detail" class="detail-btn">View Selection</a>
+            </div>
+
+            <!-- Product 7 -->
+            <div class="card col-3 col-lg-4 col-md-6 col-sm-12">
+                <div class="img-holder"><img src="perfume.jpg" alt="Fragrance"></div>
+                <div class="card-category">Beauty</div>
+                <div class="card-title">Signature Essence N°5</div>
+                <div class="card-price">$150.00</div>
+                <a href="#detail" class="detail-btn">View Selection</a>
+            </div>
+
+            <!-- Product 8 -->
+            <div class="card col-3 col-lg-4 col-md-6 col-sm-12">
+                <div class="img-holder"><img src="glass.jpg" alt="High Frame Glass"></div>
+                <div class="card-category">Accessories</div>
+                <div class="card-title">Acetate Sun Frames</div>
+                <div class="card-price">$75.00</div>
+                <a href="#detail" class="detail-btn">View Selection</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Area (Restored Panels) -->
+    <footer>
+        <div class="foot-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">Back to Top</div>
+        <div class="foot-main">
+            <div class="container footer-flex">
+                <div class="foot-col">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">Philosophy</a></li>
+                        <li><a href="#">Journal</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="foot-col">
+                    <h3>Service</h3>
+                    <ul>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Orders</a></li>
+                    </ul>
+                </div>
+                <div class="foot-col">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Accessibility</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="foot-bottom">
+            <div class="container">
+                <div class="foot-links-box">
+                    <a href="#">Status</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Privacy</a>
+                </div>
+                <div class="copyright">© 2026 EasyShopping Boutique. All rights reserved.</div>
+            </div>
         </div>
     </footer>
+
+    <!-- Modal Target Detail -->
+    <div id="detail" class="modal-target">
+        <a href="#" class="close-modal">&times;</a>
+        <div class="modal-inner">
+            <div class="modal-flex-item"><img src="women.jpg" class="modal-img-full" alt="Detail"></div>
+            <div class="modal-flex-item">
+                <h2 class="modal-title">Quality Crafted Detail</h2>
+                <p class="modal-description">This item represents our commitment to quality. Every
+                    stitch is placed with precision, and every material is chosen for its durability and aesthetic
+                    appeal.</p>
+                <div class="modal-price-tag">$120.00</div>
+                <a href="#" class="btn-black modal-action-btn">Add to bag</a>
+            </div>
+        </div>
+    </div>
+
+</body>
 
 </html>
